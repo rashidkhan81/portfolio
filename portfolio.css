@@ -1,0 +1,499 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.Hero{
+	height: 100vh;
+	width: 100;
+	background: url('14.jpg');
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 35px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	//transform: scale(1.7);
+}
+
+
+
+
+
+
+span{
+	color: #f9004d;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+nav ul li a{
+	color:yellow;
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .9s;
+	text-decoration: underline;
+
+}
+.btn{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .7s;
+
+}
+.btn:hover{
+	transform: scale(2.1);
+	background-color: yellowgreen;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translatey(-10%);
+}
+
+h1{
+	color: greenyellow;
+	margin: 20px 0px 20px;
+	font-size: 55px;
+}
+h3{
+	color: blueviolet;
+	font-size: 25px;
+}
+h4{
+	color: #ff7200;
+	letter-spacing: 2px;
+	font-size: 20px;
+
+}
+.newsletter form{
+	width: 280px;
+	max-width: 100%;
+	position: relative;
+}
+.newsletter form input:first-child{
+	display: 100%;
+	padding:12px 30px 12px;
+	border: 2px solid f9004d;
+	outline: none;
+	border-radius: 30px;
+
+}
+.newsletter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	padding-left: 12px;
+	padding-right: 20px;
+	padding:12px 30px 12px;
+	border: 2px solid f9004d;
+	border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 5px 5px #ff7200;
+
+}
+.newsletter form input:last-child:hover{
+	transform: scale(1.1);
+	color: yellowgreen;
+
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: 65vh;
+	width: 410px;
+
+
+}
+.about-text{
+	width: 550px;
+
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 4px solid transparent;
+	font-weight: bold;o
+	padding: 13px 30px;
+	border-radius: 40px;
+	transition: .8s;
+}
+
+button:hover{
+	background-color: transparent;
+	border:2px solid #f9004d;
+	cursor: pointer;
+}
+.service{
+	background: black;
+	width: 100%;
+	padding: 100px 0px; 
+}
+.title h2{
+	color: white;
+	font-size: 55px;
+	width: 100px;
+	margin:  auto;
+	padding-left: 0px;
+	padding-right: 310px;
+	text-align:center;
+	font-display: auto;
+
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;*/
+
+
+}
+
+
+
+
+
+
+.img{
+	margin-top: 20px;
+	padding-right: 183px;
+	display: grid;
+	grid-template-columns: 20rem 20rem;//32 32
+	grid-column-gap: 1.7rem;
+	grid-row-gap: .01px;
+	margin-left: 15%;	
+	//display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+.img img{                                         
+
+	width: 300px;
+	margin: 1.5rem;
+	transition: all ease .6s;
+}
+
+.img img:hover{
+/*	transform: translateY(-10px);*/
+	transform: scale(1.06);
+	background-color: #f78239;
+	 box-shadow: 5px 8px 5px 8px green;
+
+	
+
+}
+
+
+
+
+.khan{
+	margin-top: 20px;
+	padding-right: 183px;
+	/*margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;*/
+	
+	display: grid;
+	grid-template-columns: 25rem 25rem 25rem;//bcz of this images come into 3 by 3 parts
+	
+	grid-column-gap: 1.7rem;
+	grid-row-gap: .01px;
+	margin-left: 25%;	
+	//display: flex;
+	justify-content: center;
+}
+.khan img img{
+	/*margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+*/
+	width: 300px;
+	margin: 1.5rem;
+	transition: all ease .6s;
+}
+.khan img:hover{
+	transform: scale(1.06);
+	background-color: #f78239;
+	 box-shadow: 2px 4px 4px 6px orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img_grp{
+	margin-top: 20px;
+	display: grid;
+	padding-right: 380px;
+	grid-template-columns: 32rem 32rem;
+	grid-column-gap: 1rem;
+	grid-row-gap: .01px;
+	margin-left: 15%;*/	
+}
+
+.img_grp img{
+	width: 500px;
+	margin: 1rem;
+	transition: all ease .6s;
+}
+
+.img_grp img:hover{
+/*	transform: translateY(-10px);*/
+	transform: scale(1.06);
+}
+
+
+.rd{
+	margin-top: 20px;
+	color: white;
+	width: 100%;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.ras{
+	margin-top: 20px;
+    color: white;
+	width: 100%;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.rashid{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+
+}
+.rashid:hover{
+	transform: scale(1.06);
+	background-color: #f78239;
+	 box-shadow: 5px 8px 5px 8px green;
+}
+.rashid i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin:25px 0px;
+	color: #f9004d;
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+
+
+}
+.button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: transform .7s;
+
+}
+.button:hover{
+	transform: scale(1.1);
+	color: orange;
+	background-color: greenyellow;
+	//box-shadow: 24px;
+	//border: 2px solid transparent;
+	//text-shadow: snow;
+   box-shadow: 5px 5px #ff7200;   //Read more wala botton ko design kiya hu
+
+}
+.contact{
+	width: 100%;
+	font-size: 	50px;
+	background-color: #197989;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	
+	
+}
+.button-two{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 1px solid transparent;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-radius: 30px;
+	transition: transform .7s;
+
+
+}
+.button-two:hover{
+	transform: scale(1.1);
+	color: orange;
+	background-color: greenyellow;
+	
+   box-shadow: 5px 5px #ff7200;   //Read more wala botton ko design kiya hu
+}
+footer p {  
+                                                // footer balla css main use kiya hu and sara text center me lalya huu
+	
+	width: 100%;
+	font-size: 20px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+p{
+	color: #f72009;
+     width: 100%;
+	font-size: 20px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+  .abc{
+	color: orange;
+}
+
+.social_media{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.social_media a{
+	color: #fff;
+	font-size: 1.8rem;
+}
+.social_media a:hover{
+	transform: scale(1.7);
+	color: orange;
+	
+}
+  section p{
+  	margin-top: 10px;
+	width: 100%;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	cursor: pointer;
+}
+p:hover{
+	color: yellowgreen;
+}
+
+
